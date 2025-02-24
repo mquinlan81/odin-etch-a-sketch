@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container" class="container">
+      <h1 id="title" class="title">Etch-A-Sketch</h1>
+      <div class="for-border">
+        <div id="grid" class="grid"></div>
+      </div>
+
+      <div class="form-container" id="form-container">
+        <form
+          action="
+        "
+          id="grid-attributes"
+          class="grid-attributes"
+        >
+          <label for="height-val-input">Height</label>
+          <input
+            type="number"
+            name="height-val-input"
+            id="height-val-input"
+            class="val-display"
+            value="30"
+          />
+          <label for="width-val-input">Width</label>
+          <input
+            type="number"
+            name="width-val-input"
+            id="width-val-input"
+            class="val-display"
+            value="30"
+          />
+
+          <label for="color-picker">Color</label>
+          <input type="color" name="color-picker" id="color-picker" />
+
+          <button type="button" id="create-grid-btn" class="create-grid-btn">
+            Create Grid
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
